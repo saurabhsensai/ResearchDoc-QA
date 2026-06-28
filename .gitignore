@@ -1,0 +1,5 @@
+docqa/
+docs/
+data/
+.venv/
+.pytest_cache/
