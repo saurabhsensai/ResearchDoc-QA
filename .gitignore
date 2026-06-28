@@ -3,3 +3,5 @@ docs/
 data/
 .venv/
 .pytest_cache/
+src/researchdoc.egg-info/
+tests/__pycache__

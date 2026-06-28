@@ -1,7 +1,7 @@
 import pytest
-from src import ingest
+from researchdoc.ingest import DocumentIngestor
 
 def test_missing_directory_raises_error():
-    ingestor = ingest.DocumentIngestor()
+    ingestor = DocumentIngestor()
     with pytest.raises(FileNotFoundError):
         ingestor.process("./directory_that_does_not_exist")

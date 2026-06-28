@@ -1,5 +1,5 @@
 from pathlib import Path
-from src.ingest import DocumentIngestor
+from src.researchdoc.ingest import DocumentIngestor
 EXCLUDE = {"data", "docqa", "data", "__pycache__", ".git", ".pytest_cache", "docs"}
 
 def tree(path: Path, prefix=""):
