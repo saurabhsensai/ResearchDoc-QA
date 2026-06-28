@@ -1,8 +1,0 @@
-pyproject.toml
-src/researchdoc/__init__.py
-src/researchdoc/ingest.py
-src/researchdoc.egg-info/PKG-INFO
-src/researchdoc.egg-info/SOURCES.txt
-src/researchdoc.egg-info/dependency_links.txt
-src/researchdoc.egg-info/top_level.txt
-tests/test_ingest.py
