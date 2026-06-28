@@ -1,6 +1,6 @@
 from pathlib import Path
 from src.researchdoc.ingest import DocumentIngestor
-EXCLUDE = {"data", "docqa", "data", "__pycache__", ".git", ".pytest_cache", "docs"}
+EXCLUDE = { "docqa", "__pycache__", ".git", ".pytest_cache", "docs", ".venv"}
 
 def tree(path: Path, prefix=""):
     entries = sorted(
