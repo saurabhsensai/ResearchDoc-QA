@@ -5,3 +5,6 @@ data/
 .pytest_cache/
 tests/__pycache__
 *.egg-info/
+.research/
+src/__pycache__/
+src/researchdoc/__pycache__
